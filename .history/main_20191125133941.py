@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Implements math functions without using operators except for '+' and '-' """
 
-__author__ = "Raj Mahal"
+__author__ = "???"
 
 import math 
 
@@ -28,18 +28,22 @@ def power(x, n):
         return multiply(x, pow(x, n-1))
     else:
         return 1
-        
+    
+
+
 def factorial(x):
-    return math.factorial(x)
+    """Compute factorial of x, where x > 0"""
+    # your code here
+  
+    return x
 
 
 def fibonacci(n):
-    if n <= 1:
-        return n
-    else:
-        return(fibonacci(n-1)+fibonacci(n-2))
+    """Compute the nth term of fibonacci sequence"""
+    # your code here
+    return
 
 
 if __name__ == '__main__':
-   
+    # your code to call functions above
     pass
